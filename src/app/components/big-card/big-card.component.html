@@ -1,22 +1,18 @@
 <div class="container__big-card">
   <div class="big-card__picture">
-    <img
-      src="https://i0.wp.com/thinkfirstcommunication.com/wp-content/uploads/2022/05/placeholder-1-1.png?fit=1200%2C800&ssl=1"
-      alt=""
-    />
+    <img src="{{ photoCover }}" alt="" />
   </div>
 
   <div class="big-card__title">
-    <h1><a href="#">Saiu a nova versão do angular</a></h1>
+    <h1>
+      <a href="#">{{ cardTitle }}</a>
+    </h1>
   </div>
 
   <div class="big-card__description">
     <p>
       <a href="#">
-        Mussum Ipsum, cacilds vidis litro abertis. Casamentiss faiz malandris se
-        pirulitá. Praesent malesuada urna nisi, quis volutpat erat hendrerit
-        non. Nam vulputate dapibus. Manduma pindureta quium dia nois paga. Em pé
-        sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.
+        {{ cardDescription }}
       </a>
     </p>
   </div>
